@@ -40,6 +40,10 @@ h1 {
   vertical-align: middle;
 }
 
+.email {
+  display: none;
+}
+
 .img-circle {
   border-radius: 100px;
 }
