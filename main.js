@@ -9,12 +9,12 @@ jQuery(document).ready(function() {
 
     var var_1, var_2, var_3, var_4;
 
-    var_1 = 'da';
-    var_2 = 'am@';
-    var_3 = 'daa';
+    var_1 = 'emai';
+    var_2 = 'l: daam';
+    var_3 = '@daa';
     var_4 = 'm.it';
 
-    $('.mail-btn-js').on('click', function(e) {
+    $('#mail-btn-js').on('click', function(e) {
         e.preventDefault();
         $('.email-js').text(var_1 + var_2 + var_3 + var_4).css({'display' : 'inline-block'});
         $(this).hide();
