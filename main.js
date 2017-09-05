@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
 
     // Blocks
 
@@ -14,9 +14,10 @@ jQuery(document).ready(function() {
     var_3 = '@daa';
     var_4 = 'm.it';
 
-    $('#mail-btn-js').on('click', function(e) {
+    $('.mail-btn-js').on('click', function(e) {
         e.preventDefault();
-        $('.email-js').text(var_1 + var_2 + var_3 + var_4).css({'display' : 'inline-block'});
+        var html = '<span>'+ var_1 + var_2 + var_3 + var_4 +'</span>';
+        $(this).parent().find('.email-js').append(html).css({'display' : 'inline-block'});
         $(this).hide();
     });
 
