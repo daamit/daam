@@ -71,7 +71,6 @@ h1 {
 }
 
 .section_web-development .card{
-<<<<<<< HEAD
     height: 39.5rem;
 }
 
@@ -81,17 +80,6 @@ h1 {
 
 .section_photography .card {
     height: 30rem;
-=======
-    height: 605px;
-}
-
-.section_community-management .card {
-    height: 300px;
-}
-
-.section_photography .card {
-    height: 488px;
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
 }
 
 .card_btn {
@@ -119,18 +107,13 @@ h1 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
     font-size: 1.5rem;
-=======
-    font-size: 22px;
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
     color: #ffffff;
     white-space: nowrap;
 }
 
 @media only screen and (max-width: 991px) {
 
-<<<<<<< HEAD
     .avatar {
         margin-top: 5rem;
     }
@@ -146,45 +129,30 @@ h1 {
     .card_email {
         height: 5rem !important;
         margin-bottom: 2rem !important;
-=======
+    }
+
     .card_btn {
-        height: 60px !important;
+        height: 5rem !important;
     }
 
     .card_email {
-        height: 60px !important;
-        margin-bottom: 24px !important;
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
+        height: 5rem !important;
+        margin-bottom: 1.5rem !important;
     }
 
     .section_web-development .card{
         height: auto;
-<<<<<<< HEAD
         margin-bottom: 2rem;
-=======
-        margin-bottom: 30px;
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
     }
 
     .section_community-management .card {
         height: auto;
-<<<<<<< HEAD
         margin-bottom: 2rem;
-=======
-        margin-bottom: 30px;
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
     }
 
     .section_photography .card {
         height: auto;
-<<<<<<< HEAD
         margin-bottom: 2rem;
     }
 
 }
-=======
-        margin-bottom: 30px;
-    }
-
-}
->>>>>>> 234c4485cdcf73c291d66d8145c9fcbd72ea3e14
