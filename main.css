@@ -38,12 +38,27 @@ h1 {
   color: #007bff;
 }
 
+.avatar {
+  margin-bottom: 1rem;
+  width: 9rem;
+  height: 9rem;
+}
+
 .img-circle {
   border-radius: 100px;
 }
 
+.desc {
+  margin-top: 2rem;
+}
+
 .btns-group {
   margin: 1rem;
+}
+
+.emojis {
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .title-section {
@@ -56,11 +71,11 @@ h1 {
 }
 
 .section_web-development .card{
-    height: 38.75rem;
+    height: 39.5rem;
 }
 
 .section_community-management .card {
-    height: 310px;
+    height: 23rem;
 }
 
 .section_photography .card {
@@ -92,35 +107,43 @@ h1 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 22px;
+    font-size: 1.5rem;
     color: #ffffff;
     white-space: nowrap;
 }
 
 @media only screen and (max-width: 991px) {
 
+    .avatar {
+        margin-top: 5rem;
+    }
+
+    .btns-group {
+        margin: 0.5rem;
+    }
+
     .card_btn {
-        height: 60px !important;
+        height: 5rem !important;
     }
 
     .card_email {
-        height: 60px !important;
-        margin-bottom: 24px !important;
+        height: 5rem !important;
+        margin-bottom: 2rem !important;
     }
 
     .section_web-development .card{
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
 
     .section_community-management .card {
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
 
     .section_photography .card {
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 2rem;
     }
 
 }
