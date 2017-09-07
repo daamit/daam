@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
     /**
      * Blocks
@@ -19,10 +19,10 @@ jQuery(document).ready(function($) {
     var_3 = '@daa';
     var_4 = 'm.it';
 
-    $('.mail-btn-js').on('click', function(e) {
+    $('.mail-btn-js').on('click', function (e) {
         e.preventDefault();
-        var html = '<span>'+ var_1 + var_2 + var_3 + var_4 +'</span>';
-        $(this).parent().find('.email-js').append(html).css({'display' : 'inline-block'});
+        var html = '<span>' + var_1 + var_2 + var_3 + var_4 + '</span>';
+        $(this).parent().find('.email-js').append(html).css({'display': 'inline-block'});
         $(this).hide();
     });
 
@@ -30,49 +30,31 @@ jQuery(document).ready(function($) {
      * Chart.js
      */
 
-    var ctx = document.getElementById("myChart");
-    var myChart = new Chart(ctx, {
-        type: 'bar',
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'line',
+
+        // The data for our dataset
         data: {
-            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            labels: ["March", "April", "May", "June", "July", "August", "September"],
             datasets: [{
-                label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
-                ],
-                borderColor: [
-                    'rgba(255,99,132,1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
-                ],
-                borderWidth: 1
+                label: "Instagram Followers",
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [3800, 4340, 5250, 6230, 7060, 7660, 8130],
             }]
         },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero:true
-                    }
-                }]
-            }
-        }
+
+        // Configuration options go here
+        options: {}
     });
 
     /**
      * Equal height elements
      */
 
-    $(function() {
+    $(function () {
         $('.same-height-1').matchHeight();
         $('.same-height-2').matchHeight();
         $('.same-height-3').matchHeight();
