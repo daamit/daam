@@ -5,6 +5,7 @@ jQuery(document).ready(function($) {
      *
      * - Decrypt and show email
      * - Chart.js
+     * - Equal height elements
      */
 
     /**
@@ -65,6 +66,16 @@ jQuery(document).ready(function($) {
                 }]
             }
         }
+    });
+
+    /**
+     * Equal height elements
+     */
+
+    $(function() {
+        $('.same-height-1').matchHeight();
+        $('.same-height-2').matchHeight();
+        $('.same-height-3').matchHeight();
     });
 
 });
