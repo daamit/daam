@@ -127,12 +127,12 @@ h1 {
     }
 
     .card_email {
-        height: 5rem !important;
+        min-height: 5rem !important;
         margin-bottom: 2rem !important;
     }
 
     .card_btn {
-        height: 5rem !important;
+        min-height: 5rem !important;
     }
 
     .card_email {
@@ -153,6 +153,18 @@ h1 {
     .section_photography .card {
         height: auto;
         margin-bottom: 2rem;
+    }
+
+    .section_web-development .card{
+        height: auto !important;
+    }
+
+    .section_community-management .card {
+        height: auto !important;
+    }
+
+    .section_photography .card {
+        height: auto !important;
     }
 
 }

@@ -55,9 +55,9 @@ jQuery(document).ready(function ($) {
      */
 
     $(function () {
-        $('.same-height-1').matchHeight();
-        $('.same-height-2').matchHeight();
-        $('.same-height-3').matchHeight();
+        $('.same-height-1').matchHeight(false);
+        $('.same-height-2').matchHeight(false);
+        $('.same-height-3').matchHeight(false);
     });
 
 });
