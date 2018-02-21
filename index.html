@@ -8,8 +8,7 @@
     <link rel="icon" href="./img/favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
@@ -48,21 +47,21 @@
         <div class="container text-center">
             <img class="avatar img-circle" src="./img/avatar.jpg">
             <h1 class="jumbotron-heading">daam</h1>
-            <p class="lead text-muted desc">
-                I'm 30, graduated with a Master's degree in Finance at Sorbonne Paris, worked 5 years for Peugeot and
-                Louis Vuitton.<br>Then, I realized there was still many things to learn, so now I do
+            <p class="lead desc">
+                I'm 31, graduated with a <a href="http://master-tresorerie.com">Master's degree in Finance at Sorbonne Paris</a>, worked 5 years for Peugeot and
+                Louis Vuitton.<br>Then, I started developing <a href="https://saadl.com">saadl</a>, a community of bicycle builders in order to learn:
             </p>
             <div class="">
-                <a href="#web_development" class="btn btn-secondary btn-lg  btns-group">
+                <a href="#web_development" class="btn btn-secondary btn-lg btns-group">
                     <img class="emojis" src="https://twemoji.maxcdn.com/2/72x72/1f5a5.png">
                     Web development
                 </a>
-                <a href="#community_management" class="btn btn-secondary btn-lg  btns-group">
+                <a href="#community_management" class="btn btn-secondary btn-lg btns-group">
                     <img class="emojis"
                          src="https://twemoji.maxcdn.com/2/72x72/1f468-200d-1f469-200d-1f467-200d-1f466.png">
                     Community management
                 </a>
-                <a href="#photography" class="btn btn-secondary btn-lg  btns-group">
+                <a href="#photography" class="btn btn-secondary btn-lg btns-group">
                     <img class="emojis" src="https://twemoji.maxcdn.com/2/72x72/1f4f8.png">
                     Photography
                 </a>
@@ -75,53 +74,38 @@
     <div class="container">
         <h1 class="title-section">Web development</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="card same-height-1">
-                    <img class="card-img-top" src="./img/saadl.jpg" alt="Card image cap">
+                    <div class="background-img" style="background-image: url('./img/saadl.png')"></div>
                     <div class="card-body">
                         <h4 class="card-title">Saadl</h4>
-                        <p class="card-text">Saadl is a web community where members share bicycle photos. I'm working as
-                            Project
-                            Manager since 2014. Here are the main features we have developped:</p>
-                        <ul>
-                            <li><a href="https://saadl.com/browse/popular">Feeds of photos</a></li>
-                            <li><a href="https://saadl.com/photo/view/3009/AffinityKissena">Gallery of photos</a></li>
-                            <li><a href="https://saadl.com/photo/view/420/CannondaleTrack">Show parts by hovering
-                                photos</a></li>
-                            <li><a href="https://saadl.com/part/view/ThomsonEliteX2">Wikipedia for bike parts</a></li>
-                            <li><a href="https://saadl.com/threads/new">Forum</a></li>
-                        </ul>
+                        <p class="card-text text-slight">Saadl is a web community where members share bicycle photos. I'm working as
+			    <img class="emojis"
+                         src="https://twemoji.maxcdn.com/2/72x72/1f468-1f3fb-200d-1f4bb.png"><strong> Project Manager</strong> since 2015.</p>
+<p class="card-text text-slight">Here are the main features we have developed:</p>
+			<button type="button" class="btn btn-outline-primary btn-card" data-toggle="modal" data-target="#Addbikes">Add bikes</button>
+			<button type="button" class="btn btn-outline-primary btn-card" data-toggle="modal" data-target="#Browseparts">Browse parts</button>
+			<button type="button" class="btn btn-outline-primary btn-card" data-toggle="modal" data-target="#Writestories">Write stories</button>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="https://blog.saadl.com/2017/07/12/tim-ceresa-8bar-krzberg-v6/"
-                           class="btn btn-primary btn-card">Visit Saadl</a>
+                        <a href="https://saadl.com" target="_blank">Visit Saadl</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="card same-height-1">
-                    <img class="card-img-top" src="./img/saadl-blog.png" alt="Card image cap">
+                    <div class="background-img" style="background-image: url('./img/blog.png')"></div>
                     <div class="card-body">
                         <h4 class="card-title">Saadl's blog</h4>
-                        <p class="card-text">Saadl's blog is where Saadl share its stories, exclusive photographies and
-                            interviews. Here are the main features we have developped:</p>
-                        <ul>
-                            <li><a href="https://blog.saadl.com/">Last 3 featured bikes on Saadl as header</a></li>
-                            <li><a href="https://blog.saadl.com/2017/09/05/itswrongpopes-8bar/">Smooth reading
-                                experience</a></li>
-                        </ul>
+                        <p>Saadl's blog is where Saadl share its stories, exclusive photographies and interviews.</p>
+                        <p>Here are the main features we have developed:</p>
+			<button type="button" class="btn btn-outline-primary btn-card" data-toggle="modal" data-target="#Saadlpromotion">Saadl promotion</button>
+			<button type="button" class="btn btn-outline-primary btn-card" data-toggle="modal" data-target="#Readblogstories">Read stories</button>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="https://blog.saadl.com/2017/07/12/tim-ceresa-8bar-krzberg-v6/"
-                           class="btn btn-primary btn-card">Visit Saadl's blog</a>
+                        <a href="https://blog.saadl.com/" target="_blank">Visit Saadl's blog</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <a href="#" class="btn btn-primary card card_btn bg-primary mail-btn-js same-height-1">
-                    <h4 class="text-center vh-centered">Hire me</h4>
-                </a>
-                <div class="card card_email email-js bg-primary same-height-1"></div>
             </div>
         </div>
     </div>
@@ -131,28 +115,20 @@
     <div class="container">
         <h1 class="title-section">Community management</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="card same-height-2">
                     <canvas id="myChart"></canvas>
                     <div class="card-body">
                         <h4 class="card-title">Saadl</h4>
-                        <p class="card-text">Started 1 year ago, saadl <a
-                                href="https://instagram.com/saadldotcom/">Instagram</a> and <a
-                                href="https://fb.com/saadldotcom">Facebook</a> have just <a
-                                href="https://socialblade.com/instagram/user/saadldotcom">reached <strong>10 000
-                            followers</strong></a>. Saadl is
-                            now a reference to follow bikeporn pictures.</p>
+                        <p class="card-text">Started in 2016, saadl's instagram has just <a
+                                href="https://socialblade.com/instagram/user/saadldotcom" target="_blank">reached <strong>18 000
+                            followers</strong></a>. It is
+                            now one of the best bicycles feed.</p>
                         <a href="https://www.instagram.com/saadldotcom/"
-                           class="btn btn-primary btn-card">Instagram</a>
-                        <a href="https://www.facebook.com/saadldotcom" class="btn btn-primary btn-card">Facebook</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">Instagram</a>
+                        <a href="https://www.facebook.com/saadldotcom" class="btn btn-outline-primary btn-card" target="_blank">Facebook</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <a href="#" class="btn btn-primary card card_btn bg-primary mail-btn-js same-height-2">
-                    <h4 class="text-center vh-centered">Hire me</h4>
-                </a>
-                <div class="card card_email email-js bg-primary same-height-2"></div>
             </div>
         </div>
     </div>
@@ -162,49 +138,211 @@
     <div class="container">
         <h1 class="title-section">Photography</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="card same-height-3">
                     <img class="card-img-top" src="./img/Passense.jpg"
                          alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Bikes</h4>
-                        <p class="card-text">Check <a href="https://saadl.com/explore/owner/daam/photographed">all my bike
-                            shots
+                        <p class="card-text">Check <a href="https://saadl.com/explore/owner/daam/photographed" target="_blank">all my bike
+                            photos
                             on saadl</a> or just look at my favorites:</p>
                         <a href="https://blog.saadl.com/2017/09/27/passense-custom-track/"
-                           class="btn btn-primary btn-card">Passense</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">Passense</a>
                         <a href="https://blog.saadl.com/2017/07/24/concours-de-machines-2017-cyfac/"
-                           class="btn btn-primary btn-card">Cyfac</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">Cyfac</a>
                         <a href="https://blog.saadl.com/2017/07/11/cinellimash-parallax/"
-                           class="btn btn-primary btn-card">CinelliMash</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">CinelliMash</a>
                         <a href="https://blog.saadl.com/2017/07/19/chaz-kimbles-engine-11-sprinter/"
-                           class="btn btn-primary btn-card">Engine11</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">Engine11</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <div class="card same-height-3">
                     <img class="card-img-top" src="./img/race.gif"
                          alt="Card image cap">
                     <div class="card-body">
                         <h4 class="card-title">Events</h4>
-                        <p class="card-text">Check my shots from events:</p>
+                        <p class="card-text">Check my photos from events:</p>
                         <a href="https://blog.saadl.com/2017/07/11/la-petite-course-2017-women-final/"
-                           class="btn btn-primary btn-card">La petite course Women finals</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">La petite course</a>
                         <a href="https://blog.saadl.com/2017/07/12/tim-ceresa-8bar-krzberg-v6/"
-                           class="btn btn-primary btn-card">Tim Ceresa for 8bar Team</a>
+                           class="btn btn-outline-primary btn-card" target="_blank">Tim Ceresa</a>
+                        <a href="https://blog.saadl.com/2017/10/31/redbull-break-the-frame/"
+                           class="btn btn-outline-primary btn-card" target="_blank">Redbull</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <a href="#" class="btn btn-primary card card_btn bg-primary mail-btn-js same-height-3">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a href="#" class="btn btn-primary card card_btn bg-primary mail-btn-js" style="padding:4rem; margin-top:3rem">
                     <h4 class="text-center vh-centered">Hire me</h4>
                 </a>
-                <div class="card card_email email-js bg-primary same-height-3"></div>
+                <div class="card card_email email-js bg-primary" style="padding:4rem; margin-top:3rem"></div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Modal Add bikes-->
+<div class="modal fade" id="Addbikes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Add bikes on <a href="https://saadl.com" target="_blank">saadl.com</a></h4>
+      </div>
+      <div class="modal-body">
+        <p>This is the main feature of the website. Users join saadl to add photos of their bikes. It needs to be simple.</p>
+        <h5>Add bikes buttons</h5>
+        <p>They are located on top of the 2 bike feeds</p>
+        <img class="modal-img img-border" src="./img/add-bikes/buttons.png">
+        <p>If you are not logged, they toggle a popup to signup</p>
+        <h5>Upload photos in a dropzone</h5>
+        <p>Buttons toggle a popup in fullscreen.</p>
+        <img class="modal-img img-border" src="./img/add-bikes/upload.png">
+        <p>Dropping your files anywhere instantly load your photos on the server</p>
+        <img class="modal-img" src="./img/add-bikes/bike-page.png">
+        <p>And redirect to your bike page listing all the photos you have uploaded</p>
+        <h5>Identify the parts on your photos</h5>
+        <img class="modal-img img-border" src="./img/add-bikes/add-partsb.gif">
+        <p>Thousands of unique parts are registered in the database</p>
+        <img class="modal-img img-border" src="./img/add-bikes/dropdown.png">
+        <p>A dropdown helps to select your parts by suggesting the most popular ones</p>
+        <img class="modal-img img-border" src="./img/add-bikes/bikecheck.png">
+        <p><em>Few parts later..</em> here is your shiny bike page set up<br><a href="https://blog.saadl.com/2017/10/02/david-van-eerd-onboard-highlights-at-rhc-barcelona-no-5/" target="_blank">See this bike on saadl</a></p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="https://saadl.com" target="_blank">Visit Saadl</a>
+        <button type="button" class="btn btn-primary bottom-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Browse parts -->
+<div class="modal fade" id="Browseparts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Browse parts on <a href="https://saadl.com" target="_blank">saadl.com</a></h4>
+      </div>
+      <div class="modal-body">
+        <p>Most non-members come to the website to find parts and get buyer links<br>It has to be simple as an ecommerce catalog</p>
+        <h5>Browse parts</h5>
+        <p>This is the parts feed, it list all unique parts users have created</p>
+        <img class="modal-img" src="./img/browse-parts/specs.png">
+        <p>These parts are created when users identified parts on their bikes</p>
+        <img class="modal-img img-border" src="./img/add-bikes/add-partsb.gif">
+        <p>To get accurate results, powerful filters are key: <strong>Type</strong> and <strong>Brand</strong></p>
+        <img class="modal-img img-border" src="./img/browse-parts/filters.png">
+        <p>Content is instantly updated using AJAX</p>
+        <img class="modal-img img-border" src="./img/browse-parts/AJAXb.gif">
+        <p>Brand's suggestions are ordered by occurrences</p>
+        <img class="modal-img" src="./img/browse-parts/orderbyocc.png">
+        <p>All the parts are loaded using infinite scrolling</p>
+        <h5>Get details</h5>
+        <p>Clicking on a part leads to a part page</p>
+        <img class="modal-img img-border" src="./img/browse-parts/switchpageb.gif">
+        <p>Where you can browse all photos</p>
+        <img class="modal-img" src="./img/browse-parts/allphotos.png">
+        <p>Get specifications</p>
+        <img class="modal-img img-border" src="./img/browse-parts/specs.png">
+        <p>And check buyer links</p>
+        <img class="modal-img" src="./img/browse-parts/buy.png">
+        <p><a href="https://saadl.com/part/view/ThomsonEliteX2" target="_blank">Visit this part page</a></p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="https://saadl.com" target="_blank">Visit Saadl</a>
+        <button type="button" class="btn btn-primary bottom-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Write stories -->
+<div class="modal fade" id="Writestories" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Write stories on <a href="https://saadl.com" target="_blank">saadl.com</a></h4>
+      </div>
+      <div class="modal-body">
+        <p>Saadl is a very structured platform, users needed to have total freedom to write comments and stories</p>
+        <h5>Give tools</h5>
+        <p>This is an example of what they can do</p>
+        <img class="modal-img img-border" src="./img/write-stories/messagesb.png">
+        <p>Markdown to add photos and structure their comment (bold, italic, list etc.)</p>
+        <img class="modal-img" src="./img/write-stories/emojis.png">
+        <p>Nice emojis compatible with mobile</p>
+        <p><a href="https://saadl.com/story/105/BBS-hams-Cannondale-CAADX" target="_blank">Read this story</a></p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="https://saadl.com" target="_blank">Visit Saadl</a>
+        <button type="button" class="btn btn-primary bottom-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Saadl promotion -->
+<div class="modal fade" id="Saadlpromotion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Saadl promotion on <a href="https://blog.saadl.com" target="_blank">blog.saadl.com</a></h4>
+      </div>
+      <div class="modal-body">
+        <p>The blog was created during saadl's development to bring visitors on <a href="https://saadl.com" target="_blank">saadl.com</a><br>A banner showing nice bikes was the best way to redirect visitors</p>
+        <h5>Featured bikes banner</h5>
+        <p>This banner is shown on every pages of the blog</p>
+        <img class="modal-img img-border" src="./img/saadl-promotion/fullbanner.png">
+        <p>It shows randomly one of the 3 latest featured bikes on saadl</p>
+        <img class="modal-img" src="./img/saadl-promotion/bannerhover.png">
+        <p>This banner is very efficient with a 5% click rate<br>It is the best promoting tool along with instagram and facebook</p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="https://blog.saadl.com" target="_blank">Visit Saadl's blog</a>
+        <button type="button" class="btn btn-primary bottom-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Read blog stories -->
+<div class="modal fade" id="Readblogstories" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Read stories on <a href="https://blog.saadl.com" target="_blank">blog.saadl.com</a></h4>
+      </div>
+      <div class="modal-body">
+        <h5>Global view</h5>
+        <p>Let's first have a quick look at the entire structure</p>
+        <img class="modal-img img-border" src="./img/read-blog-stories/longblog.png">
+        <p>There are 2 types of blog posts: <strong>short posts</strong> and <strong>regular posts</strong></p>
+        <h5>Short posts</h5>
+        <p>They are easy to write, quick to read and more frequent<br>For these reasons they have smaller thumbnails but are positioned on top</p>
+        <img class="modal-img img-border" src="./img/read-blog-stories/6thumbs.png">
+        <p>Hovering a thumbnail indicates the type of content: video or photos</p>
+        <img class="modal-img" src="./img/read-blog-stories/hover.png">
+        <p><a href="https://blog.saadl.com/2017/10/02/david-van-eerd-onboard-highlights-at-rhc-barcelona-no-5/" target="_blank">Example of a short post</a></p>
+        <h5>Regular posts</h5>
+        <p>They are harder to write, longer to read and less frequent<br>For these reasons they have big thumbnails and are positioned below</p>
+        <img class="modal-img img-border" src="./img/read-blog-stories/bigposts.png">
+        <p><a href="https://blog.saadl.com/2018/01/24/chisto-cross-1-2018/" target="_blank">Example of a regular post</a></p>
+        <p>At the end of each post, we highlight the credits, as a result users submit their own story to be published</p>
+        <img class="modal-img img-border" src="./img/read-blog-stories/credits.png">
+        <p>Big sharing buttons make users share our stories</p>
+        <img class="modal-img img-border" src="./img/read-blog-stories/moreposts.png">
+        <p>To keep the visitors, we end each post by the previous post of the same category</p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="https://blog.saadl.com" target="_blank">Visit Saadl's blog</a>
+        <button type="button" class="btn btn-primary bottom-right" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

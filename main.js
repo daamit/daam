@@ -37,12 +37,12 @@ jQuery(document).ready(function ($) {
 
         // The data for our dataset
         data: {
-            labels: ["March", "April", "May", "June", "July", "August", "September", "October", "November"],
+            labels: ["July", "August", "September", "October", "November", "December", "January", "February", "March"],
             datasets: [{
                 label: "Instagram Followers",
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
-                data: [3800, 4340, 5250, 6230, 7060, 7660, 8130, 8970, 10000],
+                data: [7060, 7660, 8130, 8970, 10100, 12000, 14200, 16100, 18000],
             }]
         },
 
