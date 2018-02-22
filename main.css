@@ -75,6 +75,10 @@ a:hover  {
   border-radius: 100px;
 }
 
+.img-inactive {
+  opacity: .5;
+}
+
 .desc {
   margin-top: 2rem;
   color: #afafaf;
